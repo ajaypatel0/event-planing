@@ -3,7 +3,7 @@
 define('DB_HOST','localhost');
 define('DB_USER','root');
 define('DB_PASS','');
-define('DB_NAME','bmsdb');
+define('DB_NAME','royal_event');
 // Establish database connection.
 try
 {
@@ -13,5 +13,5 @@ catch (PDOException $e)
 {
 exit("Error: " . $e->getMessage());
 }
-$conn = mysqli_connect("localhost","root","","bmsdb");
+$conn = mysqli_connect("localhost","root","","royal_event");
 ?>
